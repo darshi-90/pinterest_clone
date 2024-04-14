@@ -9,9 +9,11 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout from './Layout.jsx'
 import CreatePage from './pages/CreatePage.jsx'
 
+
 const router = createBrowserRouter([
   {
     path :'/',
+    
     element: <Layout />,
     children:[
       {
